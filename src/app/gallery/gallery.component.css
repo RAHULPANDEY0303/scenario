@@ -1,0 +1,11 @@
+.photo-gallery {
+    color:#313437;
+    background-color:#fff;
+  }
+  .photo-gallery .photos {
+    padding-bottom:20px;
+  }
+  .photo-gallery .item {
+    padding-bottom:30px;
+    height: 1000px;
+  }

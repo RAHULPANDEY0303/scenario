@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row" *ngFor="let post of posts$">
+        <div class="col">
+            <span><strong>User ID: </strong></span>{{ post.userId }}<br>
+            <span><strong>Post ID: </strong></span>{{ post.id }}<br>
+            <span><strong>Title: </strong></span>{{ post.title }}<br>
+            <span><strong>Body: </strong></span>{{ post.body }}<br><br>
+            
+        </div>
+    </div>
+</div>
+

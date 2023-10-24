@@ -1,0 +1,19 @@
+<div class="photo-gallery">
+
+    <div class="container">
+        &nbsp;<h1>Our Tallented Trainers.</h1><br>
+        <div class="row ">
+            <div *ngFor = 'let lst of appList' class="col-6">
+                <div> <a [href]='lst.url' data-lightbox="photos"><img class="img-fluid" [src]='lst.url' style="padding:1rem;width:500px;height: 200px;"></a>
+                </div>
+                <div style= "padding-left:1rem ;">
+                    <strong>{{lst.Name}}</strong><br>
+                    <strong>Technology: </strong>{{lst.Master}}<br>
+                    <strong>Experience: </strong>{{lst.Expirence}}
+                    <br><br>
+                </div>
+                </div>
+        </div>
+    </div>
+    
+</div>
